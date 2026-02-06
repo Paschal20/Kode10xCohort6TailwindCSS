@@ -37,7 +37,7 @@ const ResponsiveCard = () => {
         )}
 
         {isOpen && (
-          <div className="p-5 bg-green-500 mt-40">
+          <div className="p-5 flex flex-col bg-green-500 mt-40 sm:hidden">
             <button
               className="p-2 rounded hover:bg-gray-100"
               onClick={() => setIsOpen(!isOpen)}

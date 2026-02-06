@@ -1,7 +1,12 @@
 import React from "react";
+import ResponsiveCard from "./components/ResponsiveCard";
 
 const App = () => {
-  return <div className="bg-blue-600">App</div>;
+  return (
+    <div>
+      <ResponsiveCard />
+    </div>
+  );
 };
 
 export default App;
